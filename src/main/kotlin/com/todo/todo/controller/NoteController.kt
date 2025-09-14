@@ -19,7 +19,7 @@ class NoteController(
 
     data class NoteRequest(
         val id: String?,
-        @field:NotBlank(message = "Title can't be blank.")
+        @field:NotBlank(message = "Título não pode ser vazio.")
         val title: String,
         val content: String,
         val color: Long,
